@@ -1,33 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import data from "./data.js";
+import reportWebVitals from './reportWebVitals';
+import Page from './components/Page.js';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const dataElements = data.map( element => {
-  return <Card title={element.title} openSpots={element.openSpots} review={element.stats.reviewCount} location={element.location}price={element.price} rating={element.stats.rating} coverImg={element.coverImg} />
-})
-
-
-
-function Page()
-{
 
 
 
 
-  return (
-    <div>
-        
-        
-    </div>
 
-
-
-  )
-
-}
 
 
 

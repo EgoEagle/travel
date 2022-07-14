@@ -1,23 +1,29 @@
 import React from "react";
-import star from "../images/star.png";
-
-
+import cursor from "../images/cursor.png";
 
 export default function Card(prop)
 {
 
      return(
           <div className="cardBox">
-               {prop.openSpots === 0 && <div className="cardBadge">SOLD OUT</div>}
-               <img src={`${process.env.PUBLIC_URL}/images/${prop.coverImg}`} className="cardImage"/>
+               <img src={prop.imageUrl} className="cardImage"/>
                <div className="cardStat">
-                    <img src={star} className="star" />
-                    <span> {prop.rating} </span>
-                    <span className="gray"> ({prop.review}) • </span>
-                    <span className="gray"> {prop.location} </span>
+
+                    <div className="cardBox--location">
+                         <img className="cursor" src={cursor}/>
+                         <p> {prop.location} </p>
+                         <a href={prop.googleMapsUrl}> View on Google Maps</a>
+                    </div>
+               <h2> {prop.title}</h2>
+               <div className="textBox">
+                    <div className="date">
+                    <p> {prop.startDate} </p>
+                    <p>- </p>
+                    <p> {prop.endDate} </p>
+                    </div>
+               <p className="text">  {prop.description} </p>
                </div>
-               <p>{prop.title}</p>
-               <p>From <strong>${prop.price}</strong> / person</p>
+               </div>
           </div>
 
 

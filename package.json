@@ -1,6 +1,6 @@
 {
-     "homepage": "https://egoeagle.github.io/AirBnb/",
-     "name": "air-bnb",
+     "homepage": "https://github.com/EgoEagle/travel",
+     "name": "travel",
      "version": "0.1.0",
      "private": true,
      "dependencies": {

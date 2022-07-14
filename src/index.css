@@ -12,3 +12,82 @@ code {
     monospace;
 }
 
+.navbar{
+  color:white;
+  display:flex;
+  justify-content: center;
+  background-color: #F55A5A;
+}
+
+.globe{
+  width:24px;
+  height:24px;
+  padding:15px;
+
+}
+
+.cardImage{
+border-radius: 9px;
+width:150px;
+height:200px;
+margin-top:10px;
+
+}
+
+.cardBox{
+display:flex;
+padding : 10px;
+margin-left:30%;
+line-height: 0px;
+
+}
+
+.cardStat{
+  margin:15px;
+
+}
+
+.cardBox--location{
+  margin-right:100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+
+
+  
+}
+.cardBox--location >img , .cardBox--location >p , .cardBox--location >a {
+  margin:3px;
+
+}
+
+.cardBox--location >a{
+  font-size:12px;
+}
+
+
+.cursor{
+width:7px;
+height:10px;
+
+}
+
+.textBox{
+  width:280px;
+}
+
+.date{
+  margin-right:130px;
+  font-weight: 500;
+  display:flex;
+  font-size:13px;
+  justify-content: space-evenly;
+  
+}
+
+.text{
+  line-height: 16px;
+  font-size:12px;
+
+}
