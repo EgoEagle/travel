@@ -1,15 +1,15 @@
 {
-  "main.css": "/EgoEagle/travel/static/css/main.052d0ba9.chunk.css",
-  "main.js": "/EgoEagle/travel/static/js/main.252eaaf8.chunk.js",
-  "main.js.map": "/EgoEagle/travel/static/js/main.252eaaf8.chunk.js.map",
-  "runtime~main.js": "/EgoEagle/travel/static/js/runtime~main.42823e80.js",
-  "runtime~main.js.map": "/EgoEagle/travel/static/js/runtime~main.42823e80.js.map",
-  "static/js/2.452e6eb1.chunk.js": "/EgoEagle/travel/static/js/2.452e6eb1.chunk.js",
-  "static/js/2.452e6eb1.chunk.js.map": "/EgoEagle/travel/static/js/2.452e6eb1.chunk.js.map",
-  "static/js/3.987c3a98.chunk.js": "/EgoEagle/travel/static/js/3.987c3a98.chunk.js",
-  "static/js/3.987c3a98.chunk.js.map": "/EgoEagle/travel/static/js/3.987c3a98.chunk.js.map",
-  "index.html": "/EgoEagle/travel/index.html",
-  "precache-manifest.d00b65a080f2d64ba1fb80bd97bf9577.js": "/EgoEagle/travel/precache-manifest.d00b65a080f2d64ba1fb80bd97bf9577.js",
-  "service-worker.js": "/EgoEagle/travel/service-worker.js",
-  "static/css/main.052d0ba9.chunk.css.map": "/EgoEagle/travel/static/css/main.052d0ba9.chunk.css.map"
+  "main.css": "/travel/static/css/main.052d0ba9.chunk.css",
+  "main.js": "/travel/static/js/main.252eaaf8.chunk.js",
+  "main.js.map": "/travel/static/js/main.252eaaf8.chunk.js.map",
+  "runtime~main.js": "/travel/static/js/runtime~main.bf614225.js",
+  "runtime~main.js.map": "/travel/static/js/runtime~main.bf614225.js.map",
+  "static/js/2.452e6eb1.chunk.js": "/travel/static/js/2.452e6eb1.chunk.js",
+  "static/js/2.452e6eb1.chunk.js.map": "/travel/static/js/2.452e6eb1.chunk.js.map",
+  "static/js/3.987c3a98.chunk.js": "/travel/static/js/3.987c3a98.chunk.js",
+  "static/js/3.987c3a98.chunk.js.map": "/travel/static/js/3.987c3a98.chunk.js.map",
+  "index.html": "/travel/index.html",
+  "precache-manifest.4bc1ea11496f0869474e5bebb945e1da.js": "/travel/precache-manifest.4bc1ea11496f0869474e5bebb945e1da.js",
+  "service-worker.js": "/travel/service-worker.js",
+  "static/css/main.052d0ba9.chunk.css.map": "/travel/static/css/main.052d0ba9.chunk.css.map"
 }

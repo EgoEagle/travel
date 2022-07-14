@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/EgoEagle/travel/precache-manifest.d00b65a080f2d64ba1fb80bd97bf9577.js"
+  "/travel/precache-manifest.4bc1ea11496f0869474e5bebb945e1da.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/EgoEagle/travel/index.html", {
+workbox.routing.registerNavigationRoute("/travel/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
